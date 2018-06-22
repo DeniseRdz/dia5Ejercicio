@@ -8,6 +8,8 @@
     border-radius: 5px;
     background-color: orange;
     color: white;
+    margin: 100px 0;
+    padding: 40px 30px;
 }
 
 .mg-10{
@@ -17,16 +19,4 @@
 .mg-bottom-20{
     margin-bottom: 50px;
 }
- textarea{
-     margin: 10px 0;
- }
- input{
-     margin: 10px 0;
- }
 
- a{
-     color: white
- }
- a:active{
-     color:lightgray;
- }
