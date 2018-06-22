@@ -1,12 +1,15 @@
 <div>
   <div class="container">
-    <div class="row">
+    <div class="row" *ngFor= "let article of articles">
       <div class="col-6">
-
+        <img src="via.placeholder.com/200x200" alt="">
       </div>
       <div class="col-6">
-        
+        <h3>{{article.nombre}}Hola</h3>
+        <p>{{article.desc}}</p>
+        <p>{{article.image}}</p>
       </div>
     </div>
+    
   </div>
 </div>

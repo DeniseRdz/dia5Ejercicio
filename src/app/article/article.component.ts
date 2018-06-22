@@ -11,6 +11,8 @@ export class ArticleComponent implements OnInit {
   constructor(public activatedRoute : ActivatedRoute) { 
     this.id = this.activatedRoute.snapshot.params['id'];
     console.log(this.id);
+
+   
   }
      
   ngOnInit() {

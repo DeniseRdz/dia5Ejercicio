@@ -13,7 +13,9 @@ export class AppComponent {
     'http://via.placeholder.com/900x600',
     'http://via.placeholder.com/900x600'
   ];
-
+  articles= [
+    { nombre: 'Parabola1', desc: 'Descripcion', image: 'https://drive.google.com/file/d/1U_vRytbEhcyzCaiUzLG7b70r7qAobA1y/view' }
+  ];
   
   
 }
