@@ -1,14 +1,14 @@
 <br>
 <div>
   <div class="container">
-    <div class="row" *ngFor= "let article of articles; let i = index">
+    <div class="row" *ngFor= "let article of articleComponent; let i = index">
       <div class="col-6">
-        <img src="{{article.image}}" class="img-fluid" alt="">
+        <img src="{{articleComponent[i].image}}" class="img-fluid" alt="">
       </div>
       <div class="col-6 align-middle">
-        <h4>{{article.nombre}}</h4>
-        <p>{{article.desc}}</p>
-        <button (click)='navegar(i)' >Ver</button>
+        <h4>{{articleComponent[i].nombre}}</h4>
+        <p>{{articleComponent[i].desc}}</p>
+        <button class="btn btn-light" (click)='navegar(i)' >Ver</button>
       </div>
     </div>
     
