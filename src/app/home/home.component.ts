@@ -15,6 +15,7 @@ export class HomeComponent implements OnInit {
 navegarArticulo(){
     this.router.navigate(['article',3]);
   }
+  
   images=[
     'http://via.placeholder.com/1600x600',
     'http://via.placeholder.com/1600x600',
