@@ -11,6 +11,9 @@ export class AuxiliarComponent implements OnInit {
   
   id: number;
   articleComponent = [];
+  comprar(){
+    alert("Articulo comprado");
+  }
 
   constructor(public activatedRoute : ActivatedRoute, public articleSevice: ArticleService) { 
     this.articleComponent = articleSevice.getArticles();

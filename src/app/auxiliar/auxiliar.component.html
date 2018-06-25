@@ -2,12 +2,13 @@
   <br>
   <div class="container">
     <div class="row">
-      <div class="col-4">
+      <div class="col-6">
           <img src="{{articleComponent[id].image}}" class="img-fluid" alt="">
       </div>
-      <div class="col-8">
+      <div class="col-6">
         <h4>{{articleComponent[id].nombre}}</h4>
         <p>{{articleComponent[id].desc}}</p>
+        <button class="btn btn-light" (click)="comprar()" >Comprar</button>
       </div>
     </div>
   </div>

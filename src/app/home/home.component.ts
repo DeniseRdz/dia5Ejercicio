@@ -17,9 +17,9 @@ navegarArticulo(){
   }
   
   images=[
-    'http://via.placeholder.com/1600x600',
-    'http://via.placeholder.com/1600x600',
-    'http://via.placeholder.com/1600x600'
+    'assets/img/pergola01.jpg',
+    'assets/img/pergola03.jpg',
+    'assets/img/pergola05.jpg'
   ];
 
 
